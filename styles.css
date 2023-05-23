@@ -58,6 +58,7 @@ a {
 
 .games {
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
   padding-top: 128px;
   padding-bottom: 128px;
@@ -94,4 +95,42 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    height: 735px;
+    background-image: url(img/header_bgd_mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__headline {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding-top: 239px;
+    margin-left: 0px;
+  }
+  .header__text {
+    max-width: 343px;
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 33px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .header__button {
+    margin-top: 33px;
+    margin-left: 0px;
+  }
 }/*# sourceMappingURL=styles.css.map */
