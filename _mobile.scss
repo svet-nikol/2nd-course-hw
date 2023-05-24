@@ -3,7 +3,6 @@
         padding-left: 16px;
         padding-right: 16px;
     }
-
     .header {
         height: 735px;
         background-image: url(img/header_bgd_mob.jpg);
@@ -33,6 +32,26 @@
         &__button {
             margin-top: 33px;
             margin-left: 0px;
+        }
+    }
+    .seasons {
+        gap: 20px;
+        min-height: 518px;
+        text-align: center;
+        padding-top: 51px;
+        padding-bottom: 85px;
+    }
+    .left-box {
+        &__headline {
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+        }   
+        &__button {
+            align-self: center;
         }
     }
 }
