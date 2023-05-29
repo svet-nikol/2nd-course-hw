@@ -19,7 +19,7 @@
 // // Задание 4
 // let a = '2';
 // let b = '3';
-// alert(parseInt(a) + parseInt(b));
+// alert(number(a) + number(b));
 
 // // Задание 5
 // let monthNumber = Number(prompt(`Ведите номер интересующего месяца :
