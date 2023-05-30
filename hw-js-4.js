@@ -41,7 +41,7 @@
 
 
 // Задание 6
-let numberOfFriday = 3;
+let numberOfFriday = 6;
 for (let dayNumber = numberOfFriday; dayNumber <= 31; dayNumber += 7) {
     console.log(`Сегодня пятница, ${dayNumber}-е число. Необходимо подготовить отчет.`);
     }

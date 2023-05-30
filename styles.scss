@@ -115,7 +115,7 @@ a {
         max-width: 584px;    
     }
 }
-.left-box {
+.side-box {
     &__headline {
         font-weight: 700;
         font-size: 48px;
@@ -141,5 +141,20 @@ a {
         padding: 13.3px 74.3px;
     }
 } 
+
+.words {
+    display: flex;
+    gap: 135px;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    flex-wrap: wrap-reverse;
+    &__right {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        max-width: 584px;    
+    }
+}
 
 @import 'mobile';
