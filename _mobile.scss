@@ -41,7 +41,7 @@
         padding-top: 51px;
         padding-bottom: 85px;
     }
-    .left-box {
+    .side-box {
         &__headline {
             font-size: 32px;
             line-height: 39px;
@@ -53,5 +53,12 @@
         &__button {
             align-self: center;
         }
+    }
+    .words {
+        gap: 20px;
+        min-height: 518px;
+        text-align: center;
+        padding-top: 51px;
+        padding-bottom: 85px;
     }
 }
