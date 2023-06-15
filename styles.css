@@ -128,6 +128,7 @@ a {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  max-width: 1200px;
 }
 .side-box__button {
   display: block;
@@ -157,6 +158,32 @@ a {
   flex-direction: column;
   gap: 32px;
   max-width: 584px;
+}
+
+.puzzle {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+  background-image: url(img/puzzle_bgd.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+footer {
+  min-height: 80px;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  padding-top: 32.5px;
 }
 
 @media (max-width: 767px) {
@@ -219,5 +246,9 @@ a {
     text-align: center;
     padding-top: 51px;
     padding-bottom: 85px;
+  }
+  .puzzle {
+    padding-top: 51px;
+    justify-content: flex-start;
   }
 }/*# sourceMappingURL=styles.css.map */

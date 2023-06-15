@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="hw-js-5.js"></script>
 </head>
 <body>
     <section class="header center">
@@ -17,7 +18,7 @@
         <a class="header__button" href="#">Поехали!</a>
     </section>
     <section class="games center">
-        <a class="games__item games__item_1" href="#">Игра 1</a>
+        <a onclick="seasonsGame();" class="games__item games__item_1" href="#">Игра 1</a>
         <a class="games__item games__item_2" href="#">Игра 2</a>
         <a class="games__item games__item_3" href="#">Игра 3</a>
     </section>
@@ -25,7 +26,7 @@
         <div class="seasons__left side-box">
             <h2 class="side-box__headline">Времена года!</h2>
             <p class="side-box__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-            <a href="#" class="side-box__button">Играть!</a>
+            <a onclick="seasonsGame();" href="#" class="side-box__button">Играть!</a>
         </div>
 
         <svg width="485" height="334" viewBox="0 0 485 334" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -222,5 +223,13 @@
             <a href="#" class="side-box__button">Играть!</a>            
         </div>    
     </section>
+    <section class="puzzle center">
+        <h2 class="side-box__headline">Игра в загадки</h2>
+        <p class="side-box__text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+        <a href="#" class="side-box__button">Играть!</a>
+    </section>
+    <footer>
+        <p class="footer-text">Все права защищены</p>
+    </footer>
 </body>
 </html>
