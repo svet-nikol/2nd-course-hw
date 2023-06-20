@@ -118,6 +118,11 @@ a {
   gap: 32px;
   max-width: 584px;
 }
+.seasons__img {
+  height: auto;
+  width: 100%;
+  max-width: 485px;
+}
 
 .side-box__headline {
   font-weight: 700;
@@ -152,6 +157,11 @@ a {
   align-items: center;
   min-height: 800px;
   flex-wrap: wrap-reverse;
+}
+.words__img {
+  height: auto;
+  width: 100%;
+  max-width: 481px;
 }
 .words__right {
   display: flex;
@@ -229,6 +239,9 @@ footer {
     padding-top: 51px;
     padding-bottom: 85px;
   }
+  .seasons__img {
+    max-width: 344px;
+  }
   .side-box__headline {
     font-size: 32px;
     line-height: 39px;
@@ -246,6 +259,9 @@ footer {
     text-align: center;
     padding-top: 51px;
     padding-bottom: 85px;
+  }
+  .words__img {
+    max-width: 344px;
   }
   .puzzle {
     padding-top: 51px;

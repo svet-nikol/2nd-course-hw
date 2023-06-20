@@ -126,7 +126,15 @@ a {
         gap: 32px;
         max-width: 584px;
     }
+
+    &__img {
+        height: auto;
+        width: 100%;
+        max-width: 485px;
+    }
+
 }
+
 
 .side-box {
     &__headline {
@@ -165,6 +173,12 @@ a {
     align-items: center;
     min-height: 800px;
     flex-wrap: wrap-reverse;
+
+    &__img {
+        height: auto;
+        width: 100%;
+        max-width: 481px;
+    }
 
     &__right {
         display: flex;
