@@ -3,6 +3,7 @@
         padding-left: 16px;
         padding-right: 16px;
     }
+
     .header {
         height: 735px;
         background-image: url(img/header_bgd_mob.jpg);
@@ -11,6 +12,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
         &__headline {
             font-style: normal;
             font-weight: 700;
@@ -19,7 +21,8 @@
             text-align: center;
             padding-top: 239px;
             margin-left: 0px;
-            }
+        }
+
         &__text {
             max-width: 343px;
             font-weight: 300px;
@@ -29,36 +32,53 @@
             margin-left: 0;
             text-align: center;
         }
+
         &__button {
             margin-top: 33px;
             margin-left: 0px;
         }
     }
+
     .seasons {
         gap: 20px;
         min-height: 518px;
         text-align: center;
         padding-top: 51px;
         padding-bottom: 85px;
+        &__img {
+            max-width: 344px;
+        }
     }
+
     .side-box {
         &__headline {
             font-size: 32px;
             line-height: 39px;
         }
+
         &__text {
             font-size: 14px;
             line-height: 22px;
-        }   
+        }
+
         &__button {
             align-self: center;
         }
     }
+
     .words {
         gap: 20px;
         min-height: 518px;
         text-align: center;
         padding-top: 51px;
         padding-bottom: 85px;
+        &__img {
+            max-width: 344px;
+        }
+    }
+
+    .puzzle {
+        padding-top: 51px;
+        justify-content: flex-start;
     }
 }
