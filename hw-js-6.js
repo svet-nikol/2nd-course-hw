@@ -1,7 +1,7 @@
 console.log(`Задание 1`);
 const numbers = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] == 10)
+    if (numbers[i - 1] == 10)
         break;
     console.log(numbers[i]);
 };
@@ -170,7 +170,7 @@ for (let i = 0; i < 6; i++) {
     j = getRandomNumber(1, 10);
     lastArr.push(j);
 }
-console.log(`Массив случайных 6 элементов  в диапазоне от 1 до 10:`);
+console.log(`Массив случайных 6 элементов в диапазоне от 1 до 10:`);
 console.log(lastArr);
 let lastResult = lastArr.reduce((a, b) => a + b) / lastArr.length
 console.log(`Среднее арифметическое элементов: ${lastResult}`);
