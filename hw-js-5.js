@@ -144,3 +144,21 @@ if (monthNumber === 12 || monthNumber === 1 || monthNumber === 2) {
     alert('нет такого месяца в году');
 }
 }
+
+// урок 2.7 Работа с макетом
+
+let wordsGame = function() {
+    let wordsArr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    wordsArr = wordsArr.sort(() => Math.random() - 0.5);
+    alert(`Запомни массив слов:
+${wordsArr.join(', ')}`);
+    let firstWord = prompt(`Чему равнялся первый элемент массива?`);
+    let lastWord = prompt(`Чему равнялся последний элемент массива?`);
+    if (firstWord.toLowerCase() === wordsArr[0].toLowerCase() && lastWord.toLowerCase() === wordsArr[wordsArr.length - 1].toLowerCase())  {
+        alert(`Вы угадали оба слова!`)
+    } else if (firstWord.toLowerCase() === wordsArr[0].toLowerCase() || lastWord.toLowerCase() === wordsArr[wordsArr.length - 1].toLowerCase()) {
+        alert(`Вы были близки к победе!`)
+    } else {
+        alert(`Не угадали! пробуйте еще!`)
+    }
+}
