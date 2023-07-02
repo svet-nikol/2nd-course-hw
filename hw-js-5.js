@@ -156,7 +156,7 @@ ${wordsArr.join(', ')}`);
     let lastWord = prompt(`Чему равнялся последний элемент массива?`);
     if (firstWord.toLowerCase() === wordsArr[0].toLowerCase() && lastWord.toLowerCase() === wordsArr[wordsArr.length - 1].toLowerCase())  {
         alert(`Вы угадали оба слова!`)
-    } else if (firstWord.toLowerCase() === wordsArr[0].toLowerCase() || lastWord.toLowerCase() === wordsArr[i].toLowerCase()) {
+    } else if (firstWord.toLowerCase() === wordsArr[0].toLowerCase() || lastWord.toLowerCase() === wordsArr[wordsArr.length - 1].toLowerCase()) {
         alert(`Вы были близки к победе!`)
     } else {
         alert(`Не угадали! пробуйте еще!`)
